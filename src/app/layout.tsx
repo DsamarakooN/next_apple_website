@@ -1,3 +1,4 @@
+import Navbar from "@/components/navbar";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -28,8 +29,9 @@ export default function RootLayout({
         <link rel="icon" type="image/svg+xml" href="/images/apple.svg" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
       >
+        <Navbar />
         {children}
       </body>
     </html>

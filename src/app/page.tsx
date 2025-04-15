@@ -1,8 +1,11 @@
+import Hero from "@/sections/Home/Hero";
+import Highlights from "@/sections/Home/Highlights";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl text-red-700 font-bold underline">
-      Hello world!
-    </h1>
+    <>
+    <Hero/>
+    <Highlights />
+    </>
   );
 }
