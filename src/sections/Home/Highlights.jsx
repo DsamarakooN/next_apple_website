@@ -1,5 +1,6 @@
 'use client'
 
+import VideoCarousel from "@/components/VideoCarousel";
 import { rightImg, watchImg } from "@/utils";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -27,6 +28,7 @@ const Highlights = () => {
                         </p>
                     </div>
                 </div>
+                <VideoCarousel />
             </div>
         </section>
     )
